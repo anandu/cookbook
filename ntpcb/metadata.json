@@ -1,0 +1,31 @@
+{
+  "platforms": {
+  },
+  "description": "Installs/Configures ntp",
+  "suggestions": {
+  },
+  "conflicting": {
+  },
+  "recipes": {
+    "ntpcb::ntp": "My first recipe, Installs/Configures ntp",
+    "ntpcb::cront": "Installs/Configures cRon"
+  },
+  "long_description": "= DESCRIPTION:\n\n= REQUIREMENTS:\n\n= ATTRIBUTES:\n\n= USAGE:\n\n",
+  "providing": {
+  },
+  "version": "0.0.1",
+  "attributes": {
+  },
+  "maintainer": "SYM",
+  "replacing": {
+  },
+  "license": "All rights reserved",
+  "maintainer_email": "anandu@gmail.com",
+  "name": "ntpcb",
+  "groupings": {
+  },
+  "dependencies": {
+  },
+  "recommendations": {
+  }
+}
