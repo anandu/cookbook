@@ -1,6 +1,8 @@
-maintainer       "YOUR_COMPANY_NAME"
-maintainer_email "YOUR_EMAIL"
+maintainer       "SYM"
+maintainer_email "anandu@gmail.com"
 license          "All rights reserved"
-description      "Installs/Configures ntpcb"
+description      "Installs/Configures ntp"
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.rdoc'))
 version          "0.0.1"
+recipe "ntpcb::ntp", "My first recipe, Installs/Configures ntp"
+recipe "ntpcb::cront", "Installs/Configures cRon"
