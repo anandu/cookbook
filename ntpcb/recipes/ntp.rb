@@ -6,7 +6,7 @@ end
 template "/etc/ntp.conf" do
     source "ntp.conf.erb"
     variables( :ntp_server => "time.nist.gov" )
-#    not_if {true}
+    not_if {true}
 end
 
 service "ntpd" do
