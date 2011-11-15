@@ -9,9 +9,9 @@ recipe "ntpcb::cront", "Installs/Configures cRon"
 recipe "ntpcb::motds", "Welcomes the user"
 recipe "ntpcb::remove", "Welcomes the user"
 
-#attribute "ntpcb/tempdir",
-#  :display_name => "Temp dir location",
-#  :description => "The location of swap file.  Defaults to '/swapfile'.",
-#  :type => "string",
-#  :default => "/tmp",
-#  :recipes => [ "ntpcb::cront"]
+attribute "ntpcb/tempdir",
+  :display_name => "Temp dir location",
+  :description => "The location of swap file.  Defaults to '/swapfile'.",
+  :type => "string",
+  :default => "/tmp",
+  :recipes => [ "ntpcb::cront"]
