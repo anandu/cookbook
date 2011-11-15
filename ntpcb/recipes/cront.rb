@@ -1,7 +1,8 @@
 tempdir = node[:ntpcb][:tempdir]
 
 cron "noop" do
-  hour "1"
+  hour "#{node[:ntpcb][:cron_backup_hr]}"
+  #hour "1"
   minute "0"
   command "/sbin/ifconfig"
 end
