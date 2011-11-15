@@ -7,6 +7,7 @@ version          "0.0.1"
 recipe "ntpcb::ntp", "My first recipe, Installs/Configures ntp"
 recipe "ntpcb::cront", "Installs/Configures cRon"
 recipe "ntpcb::motds", "Welcomes the user"
+recipe "ntpcb::remove", "Welcomes the user"
 
 attribute "ntpcb/tempdir",
   :display_name => "Temp dir location",

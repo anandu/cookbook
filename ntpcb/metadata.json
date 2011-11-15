@@ -8,6 +8,7 @@
   },
   "recipes": {
     "ntpcb::ntp": "My first recipe, Installs/Configures ntp",
+    "ntpcb::remove": "Welcomes the user",
     "ntpcb::motds": "Welcomes the user",
     "ntpcb::cront": "Installs/Configures cRon"
   },
