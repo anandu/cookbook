@@ -16,7 +16,7 @@
   },
   "version": "0.0.1",
   "attributes": {
-    "cront/tempdir": {
+    "ntpcb/tempdir": {
       "required": "optional",
       "calculated": false,
       "choice": [
