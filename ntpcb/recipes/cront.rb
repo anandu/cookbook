@@ -1,4 +1,4 @@
-tempdir = node[:sys][:tempdir]
+tempdir = node[:ntpcb][:tempdir]
 cron "noop" do
   hour "1"
   minute "0"
