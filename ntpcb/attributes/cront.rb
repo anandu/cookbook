@@ -1,0 +1,1 @@
+set[:ntpcb][:tempdir] = "/tmp"
