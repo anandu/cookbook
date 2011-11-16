@@ -1,5 +1,6 @@
 # Sets NTP client
 tempdir = node[:ntpcb][:tempdir]
+include_recipe "ntpcb::motds"
 package "ntp" do
     action [:install]
 end
