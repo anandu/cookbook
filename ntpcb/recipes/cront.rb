@@ -9,7 +9,8 @@ tempdir = node[:ntpcb][:tempdir]
 
 #%w{dir1 dir2 dir3}.each do |dir|
    #new_resource "#{tempdir}/#{dir}" do
-   new_resource "#{tempdir}" do
+   newresource "#{tempdir}" do
+   provider "ntpcb_mkdir"
       action :mkd
    end
 #end
